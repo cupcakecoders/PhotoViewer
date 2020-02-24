@@ -1,10 +1,10 @@
 ﻿import React from "react";
 import "./PhotoViewer.css";
 
-function PhotoViewer() {
+function PhotoViewer(props) {
     return (
         <div>
-            <img src ="https://picsum.photos/200/300"/>
+           <img src={props.src}/>
         </div>
     );
 }
