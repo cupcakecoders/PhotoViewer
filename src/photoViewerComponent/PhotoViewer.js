@@ -4,7 +4,7 @@ import "./PhotoViewer.css";
 function PhotoViewer(props) {
     return (
         <div>
-           <img src={props.src}/>
+           <img className="mainImage" src={props.src}/>
         </div>
     );
 }

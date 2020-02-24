@@ -2,24 +2,19 @@
 import {ImageUrls} from "../data";
 import "./ThumbnailsImages.css";
 
-
-
-//display current URL 
-//add 'onClick' event handler that updates the state when you click on thumbnail 
-
-function ThumbnailImages(){
+function ThumbnailImages(prop){
     const listOfImages = [];
     
-    const [imageURL, getImageURL] = useState("");
     
     for (let i = 0; i < ImageUrls.length; i++){
         const image = ImageUrls[i];
-        listOfImages.push(<li><img src = {image} onClick={()=> getImageURL (image)}/></li>);
+        listOfImages.push(<li><img className ="imageGallery" src = {image} onClick={()=> prop.setImage(image)}/></li>);
     }
+    
+    
     return (
-        <div>
-           <ul>
-                Selected image: {imageURL}
+        <div >
+           <ul className="imageContainer">
                 {listOfImages}
            </ul>
         </div>

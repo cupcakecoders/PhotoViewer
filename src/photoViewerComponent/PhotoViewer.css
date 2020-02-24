@@ -1,4 +1,12 @@
-﻿.my-class {
+﻿img.mainImage {
+    width: 1200px;
+    height: auto;
+    padding-right: 70px;
+}
+
+
+.my-class {
     color: black;
+    text-align: center;
 }
 
