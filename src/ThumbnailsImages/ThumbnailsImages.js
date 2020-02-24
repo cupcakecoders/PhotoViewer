@@ -8,7 +8,7 @@ function ThumbnailImages(prop){
     
     for (let i = 0; i < ImageUrls.length; i++){
         const image = ImageUrls[i];
-        listOfImages.push(<li><img className ="imageGallery" src = {image} onClick={()=> prop.setImage(image)}/></li>);
+        listOfImages.push(<li><img className ="imageGallery selected" src = {image} onClick={()=> prop.setImage(image)}/></li>);
     }
     
     

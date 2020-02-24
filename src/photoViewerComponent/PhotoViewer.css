@@ -1,7 +1,8 @@
 ﻿img.mainImage {
-    width: 1200px;
-    height: auto;
-    padding-right: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 

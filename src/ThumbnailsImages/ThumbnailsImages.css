@@ -2,11 +2,10 @@
     list-style: none;
     display: flex;
     flex-flow: row wrap;
- 
 }
 
 .imageGallery {
-    width: 300px;
+    width: 250px;
     height: auto;
     padding-right: 10px;
 }
