@@ -9,6 +9,4 @@ function PhotoViewer(props) {
     );
 }
 
-
-
 export{PhotoViewer}; 
