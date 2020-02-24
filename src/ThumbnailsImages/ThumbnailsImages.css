@@ -1,15 +1,13 @@
 ﻿.imageContainer {
     list-style: none;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 0;
-    margin: -4px;
+    flex-flow: row wrap;
+ 
 }
 
 .imageGallery {
     width: 300px;
     height: auto;
-    
+    padding-right: 10px;
 }
 
