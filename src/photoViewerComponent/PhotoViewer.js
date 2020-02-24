@@ -1,4 +1,4 @@
-﻿import React from "react";
+﻿import React, {useState} from "react";
 import "./PhotoViewer.css";
 
 function PhotoViewer(props) {
@@ -8,5 +8,7 @@ function PhotoViewer(props) {
         </div>
     );
 }
+
+
 
 export{PhotoViewer}; 
