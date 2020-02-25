@@ -1,9 +1,18 @@
+
 .App {
   text-align: center;
 }
 
+body {
+  background-color: darkgray;
+}
+
+div {
+  padding: 10px;
+}
 h1 {
   text-align: center;
+  color: whitesmoke;
 }
 
 .App-logo {

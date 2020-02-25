@@ -2,11 +2,13 @@
     list-style: none;
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 .imageGallery {
     width: 250px;
     height: auto;
     padding-right: 10px;
+    padding-bottom: 10px;
 }
 
